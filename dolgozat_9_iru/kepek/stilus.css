@@ -3,7 +3,10 @@
 
 }
 body{
+    font-family: sans-serif;
     background-color: antiquewhite;
+    color: black;
+    font-size: ;
 }
 nav{
     text-align: center;
@@ -32,4 +35,29 @@ article{
     margin: auto;
     padding: 16px;
 
+}
+img{
+    width: 100%;
+    max-width: 200px;
+
+}
+.kartya div{
+    background-color: azure;
+    border-radius: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30 px;
+    padding: 30px;
+
+}
+@media screen and (max-width:600px) {
+    .kartya{
+        grid-template-columns: 1fr;
+    }
+    nav{
+        grid-template-columns: 1fr;
+    }
+    footer{
+        grid-template-columns: 1fr;
+    }
 }
