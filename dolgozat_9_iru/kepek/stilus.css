@@ -49,14 +49,24 @@ img{
     max-width: 200px;
 
 }
-.kartya div{
+.kartya1 {
     background-color: azure;
     border-radius: 40px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30 px;
     padding: 30px;
+    align-items: center;
 
+}
+.kartya2 {
+    background-color: azure;
+    border-radius: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30 px;
+    padding: 30px;
+    align-items: center;
 }
 .logok{
     display: grid;
@@ -68,6 +78,9 @@ footer{
     text-align: center;
     background-color: azure;
     margin-top: 32px;
+}
+div{
+    text-align: center;
 }
 
 @media screen and (max-width:600px) {
