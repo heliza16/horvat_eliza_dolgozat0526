@@ -6,21 +6,29 @@ body{
     font-family: sans-serif;
     background-color: antiquewhite;
     color: black;
-    font-size: ;
+    font-size: 20px;
+}
+header{
+    text-align: center;
+    padding: 30px;
+    border-radius: 35px;
+    
 }
 nav{
     text-align: center;
-    background-color: aliceblue;
     padding: 16px;
     margin-bottom: 20px;
 }
 nav a{
-    background-color: antiquewhite;
+    color: black;
     text-decoration: none;
     padding: 12px;
     border-radius: 5px;
     font-weight: bold;
     display: grid;
+    gap: 20px;
+    border: 2px snow;
+    
 
 }
 h1{
@@ -50,6 +58,18 @@ img{
     padding: 30px;
 
 }
+.logok{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 30px;
+
+}
+footer{
+    text-align: center;
+    background-color: azure;
+    margin-top: 32px;
+}
+
 @media screen and (max-width:600px) {
     .kartya{
         grid-template-columns: 1fr;
